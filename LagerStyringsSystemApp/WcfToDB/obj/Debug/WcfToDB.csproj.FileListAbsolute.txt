@@ -1,0 +1,7 @@
+C:\Users\Sebastian\source\repos\LagerStyringsSystemApp\WcfToDB\obj\Debug\WcfToDB.csprojAssemblyReference.cache
+C:\Users\Sebastian\source\repos\LagerStyringsSystemApp\WcfToDB\obj\Debug\WcfToDB.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\source\repos\LagerStyringsSystemApp\WcfToDB\bin\Debug\WcfToDB.dll.config
+C:\Users\Sebastian\source\repos\LagerStyringsSystemApp\WcfToDB\bin\Debug\WcfToDB.dll
+C:\Users\Sebastian\source\repos\LagerStyringsSystemApp\WcfToDB\bin\Debug\WcfToDB.pdb
+C:\Users\Sebastian\source\repos\LagerStyringsSystemApp\WcfToDB\obj\Debug\WcfToDB.dll
+C:\Users\Sebastian\source\repos\LagerStyringsSystemApp\WcfToDB\obj\Debug\WcfToDB.pdb

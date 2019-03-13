@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LagerStyringsSystemApp", "LagerStyringsSystemApp\LagerStyringsSystemApp.csproj", "{0FEE8EC3-C908-4011-804A-CBC184FB0E4E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B1AAEA04-3187-4BA1-950A-FE620B314816} = {B1AAEA04-3187-4BA1-950A-FE620B314816}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfToDB", "WcfToDB\WcfToDB.csproj", "{B1AAEA04-3187-4BA1-950A-FE620B314816}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FEE8EC3-C908-4011-804A-CBC184FB0E4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FEE8EC3-C908-4011-804A-CBC184FB0E4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FEE8EC3-C908-4011-804A-CBC184FB0E4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FEE8EC3-C908-4011-804A-CBC184FB0E4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1AAEA04-3187-4BA1-950A-FE620B314816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1AAEA04-3187-4BA1-950A-FE620B314816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1AAEA04-3187-4BA1-950A-FE620B314816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1AAEA04-3187-4BA1-950A-FE620B314816}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE68ADFA-AD02-4231-A61E-75EC4BAC7FCF}
+	EndGlobalSection
+EndGlobal

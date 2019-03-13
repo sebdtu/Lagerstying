@@ -1,0 +1,10 @@
+C:\Users\Sebastian\source\repos\LagerStyringsSystemApp\LagerStyringsSystemApp\bin\Debug\LagerStyringsSystemApp.exe.config
+C:\Users\Sebastian\source\repos\LagerStyringsSystemApp\LagerStyringsSystemApp\bin\Debug\LagerStyringsSystemApp.exe
+C:\Users\Sebastian\source\repos\LagerStyringsSystemApp\LagerStyringsSystemApp\bin\Debug\LagerStyringsSystemApp.pdb
+C:\Users\Sebastian\source\repos\LagerStyringsSystemApp\LagerStyringsSystemApp\obj\Debug\LagerStyringsSystemApp.csprojAssemblyReference.cache
+C:\Users\Sebastian\source\repos\LagerStyringsSystemApp\LagerStyringsSystemApp\obj\Debug\LagerStyringsSystemApp.Form1.resources
+C:\Users\Sebastian\source\repos\LagerStyringsSystemApp\LagerStyringsSystemApp\obj\Debug\LagerStyringsSystemApp.Properties.Resources.resources
+C:\Users\Sebastian\source\repos\LagerStyringsSystemApp\LagerStyringsSystemApp\obj\Debug\LagerStyringsSystemApp.csproj.GenerateResource.cache
+C:\Users\Sebastian\source\repos\LagerStyringsSystemApp\LagerStyringsSystemApp\obj\Debug\LagerStyringsSystemApp.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\source\repos\LagerStyringsSystemApp\LagerStyringsSystemApp\obj\Debug\LagerStyringsSystemApp.exe
+C:\Users\Sebastian\source\repos\LagerStyringsSystemApp\LagerStyringsSystemApp\obj\Debug\LagerStyringsSystemApp.pdb
