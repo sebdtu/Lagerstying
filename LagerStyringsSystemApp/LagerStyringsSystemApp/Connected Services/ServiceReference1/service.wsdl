@@ -19,11 +19,11 @@
   <wsdl:message name="IService1_GetDataUsingDataContract_OutputMessage">
     <wsdl:part name="parameters" element="tns:GetDataUsingDataContractResponse" />
   </wsdl:message>
-  <wsdl:message name="IService1_insertVare_InputMessage">
-    <wsdl:part name="parameters" element="tns:insertVare" />
+  <wsdl:message name="IService1_InsertVare_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertVare" />
   </wsdl:message>
-  <wsdl:message name="IService1_insertVare_OutputMessage">
-    <wsdl:part name="parameters" element="tns:insertVareResponse" />
+  <wsdl:message name="IService1_InsertVare_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertVareResponse" />
   </wsdl:message>
   <wsdl:portType name="IService1">
     <wsdl:operation name="GetData">
@@ -34,9 +34,9 @@
       <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetDataUsingDataContract" message="tns:IService1_GetDataUsingDataContract_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetDataUsingDataContractResponse" message="tns:IService1_GetDataUsingDataContract_OutputMessage" />
     </wsdl:operation>
-    <wsdl:operation name="insertVare">
-      <wsdl:input wsaw:Action="http://tempuri.org/IService1/insertVare" message="tns:IService1_insertVare_InputMessage" />
-      <wsdl:output wsaw:Action="http://tempuri.org/IService1/insertVareResponse" message="tns:IService1_insertVare_OutputMessage" />
+    <wsdl:operation name="InsertVare">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsertVare" message="tns:IService1_InsertVare_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsertVareResponse" message="tns:IService1_InsertVare_OutputMessage" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
@@ -59,8 +59,8 @@
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="insertVare">
-      <soap:operation soapAction="http://tempuri.org/IService1/insertVare" style="document" />
+    <wsdl:operation name="InsertVare">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsertVare" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>

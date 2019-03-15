@@ -29,17 +29,17 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-  <xs:element name="insertVare">
+  <xs:element name="InsertVare">
     <xs:complexType>
       <xs:sequence>
         <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/WcfToDB" minOccurs="0" name="vare" nillable="true" type="q3:Lagervare" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-  <xs:element name="insertVareResponse">
+  <xs:element name="InsertVareResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element minOccurs="0" name="insertVareResult" type="xs:int" />
+        <xs:element minOccurs="0" name="InsertVareResult" type="xs:int" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>

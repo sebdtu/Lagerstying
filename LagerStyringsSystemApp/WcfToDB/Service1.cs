@@ -26,16 +26,19 @@ namespace WcfToDB
         void connectToDB()
         {
             connStringBuilder = new SqlConnectionStringBuilder();
-            connStringBuilder.DataSource = @"(LocalDb)\LocalDBLager";
-            connStringBuilder.InitialCatalog = "WCF";
-            //connStringBuilder.Encrypt = true;
+            connStringBuilder.DataSource = @"lagerservice.database.windows.net";
+            connStringBuilder.InitialCatalog = "lagersystem";
+            connStringBuilder.UserID = "MrBoss";
+            connStringBuilder.Password = "C[CWquJM2P$2jR,9~AF+";
+            connStringBuilder.Encrypt = true;
             connStringBuilder.TrustServerCertificate = true;
             connStringBuilder.ConnectTimeout = 30;
             connStringBuilder.MultipleActiveResultSets = true;
-            connStringBuilder.IntegratedSecurity = true;
+            connStringBuilder.IntegratedSecurity = false;
 
             conn = new SqlConnection(connStringBuilder.ToString());
             comm = conn.CreateCommand();
+            
         }
 
 
@@ -57,7 +60,7 @@ namespace WcfToDB
             return composite;
         }
 
-        public int insertVare(Lagervare v)
+        public int InsertVare(Lagervare v)
         {
             try
             {

@@ -28,7 +28,7 @@ namespace LagerStyringsSystemApp
 
             Service1Client service = new Service1Client();
 
-            if (service.insertVare(lagervare)==1){
+            if (service.InsertVare(lagervare)==1){
                 MessageBox.Show("Varer insert succesfull");
             }
         }

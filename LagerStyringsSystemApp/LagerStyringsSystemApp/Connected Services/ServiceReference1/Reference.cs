@@ -183,11 +183,11 @@ namespace LagerStyringsSystemApp.ServiceReference1 {
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetDataUsingDataContract", ReplyAction="http://tempuri.org/IService1/GetDataUsingDataContractResponse")]
         System.Threading.Tasks.Task<LagerStyringsSystemApp.ServiceReference1.CompositeType> GetDataUsingDataContractAsync(LagerStyringsSystemApp.ServiceReference1.CompositeType composite);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/insertVare", ReplyAction="http://tempuri.org/IService1/insertVareResponse")]
-        int insertVare(LagerStyringsSystemApp.ServiceReference1.Lagervare vare);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/InsertVare", ReplyAction="http://tempuri.org/IService1/InsertVareResponse")]
+        int InsertVare(LagerStyringsSystemApp.ServiceReference1.Lagervare vare);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/insertVare", ReplyAction="http://tempuri.org/IService1/insertVareResponse")]
-        System.Threading.Tasks.Task<int> insertVareAsync(LagerStyringsSystemApp.ServiceReference1.Lagervare vare);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/InsertVare", ReplyAction="http://tempuri.org/IService1/InsertVareResponse")]
+        System.Threading.Tasks.Task<int> InsertVareAsync(LagerStyringsSystemApp.ServiceReference1.Lagervare vare);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -233,12 +233,12 @@ namespace LagerStyringsSystemApp.ServiceReference1 {
             return base.Channel.GetDataUsingDataContractAsync(composite);
         }
         
-        public int insertVare(LagerStyringsSystemApp.ServiceReference1.Lagervare vare) {
-            return base.Channel.insertVare(vare);
+        public int InsertVare(LagerStyringsSystemApp.ServiceReference1.Lagervare vare) {
+            return base.Channel.InsertVare(vare);
         }
         
-        public System.Threading.Tasks.Task<int> insertVareAsync(LagerStyringsSystemApp.ServiceReference1.Lagervare vare) {
-            return base.Channel.insertVareAsync(vare);
+        public System.Threading.Tasks.Task<int> InsertVareAsync(LagerStyringsSystemApp.ServiceReference1.Lagervare vare) {
+            return base.Channel.InsertVareAsync(vare);
         }
     }
 }
